@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E2848CB22044BA5006C06C4 /* HGDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2848CA22044BA5006C06C4 /* HGDButton.swift */; };
+		3E2848CF2205A06D006C06C4 /* IMG_0011-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E2848CE2205A06D006C06C4 /* IMG_0011-5.jpg */; };
+		3E2848DB2205CBAE006C06C4 /* HandSegNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3E2848DA2205CBAE006C06C4 /* HandSegNet.mlmodel */; };
+		3E2848DD2205CCC8006C06C4 /* GestureNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3E2848DC2205CCC8006C06C4 /* GestureNet.mlmodel */; };
+		3E2848E12205FF1C006C06C4 /* PoseNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3E2848E02205FF1C006C06C4 /* PoseNet.mlmodel */; };
+		3EA889CC2201DB4E007A2FD7 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889CB2201DB4E007A2FD7 /* UIImageExtensions.swift */; };
+		3EA889CE2201E972007A2FD7 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889CD2201E972007A2FD7 /* UIColorExtensions.swift */; };
+		3EA889E1220222FE007A2FD7 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889D4220222FD007A2FD7 /* Array+Extensions.swift */; };
+		3EA889E2220222FE007A2FD7 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889D5220222FD007A2FD7 /* Math.swift */; };
+		3EA889E3220222FE007A2FD7 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889D6220222FD007A2FD7 /* UIImage+CVPixelBuffer.swift */; };
+		3EA889E4220222FE007A2FD7 /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889D7220222FD007A2FD7 /* Predictions.swift */; };
+		3EA889E5220222FE007A2FD7 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889D8220222FD007A2FD7 /* UIImage+Extensions.swift */; };
+		3EA889E6220222FE007A2FD7 /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889D9220222FD007A2FD7 /* CGImagePropertyOrientation.swift */; };
+		3EA889E7220222FE007A2FD7 /* UIImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889DA220222FD007A2FD7 /* UIImage+RawBytes.swift */; };
+		3EA889E8220222FE007A2FD7 /* MLMultiArray+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889DB220222FD007A2FD7 /* MLMultiArray+Helpers.swift */; };
+		3EA889E9220222FE007A2FD7 /* CVPixelBuffer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889DC220222FD007A2FD7 /* CVPixelBuffer+Helpers.swift */; };
+		3EA889EA220222FE007A2FD7 /* CGImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889DD220222FD007A2FD7 /* CGImage+CVPixelBuffer.swift */; };
+		3EA889EB220222FE007A2FD7 /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889DE220222FD007A2FD7 /* NonMaxSuppression.swift */; };
+		3EA889EC220222FE007A2FD7 /* CGImage+RawBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889DF220222FD007A2FD7 /* CGImage+RawBytes.swift */; };
+		3EA889ED220222FE007A2FD7 /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889E0220222FD007A2FD7 /* MLMultiArray+Image.swift */; };
+		3EA889EF22025756007A2FD7 /* CIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA889EE22025756007A2FD7 /* CIImageExtensions.swift */; };
+		3EC2285D2201D48C00868848 /* PredictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC2285C2201D48C00868848 /* PredictionViewController.swift */; };
+		3EE7BEFC21FC826300DFC73E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE7BEFB21FC826300DFC73E /* AppDelegate.swift */; };
+		3EE7BF0321FC826400DFC73E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE7BF0221FC826400DFC73E /* Assets.xcassets */; };
+		3EE7BF0621FC826400DFC73E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE7BF0421FC826400DFC73E /* LaunchScreen.storyboard */; };
+		3EE7BF0E21FC829300DFC73E /* Hand3DNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE7BF0D21FC829300DFC73E /* Hand3DNet.swift */; };
+		3EE7BF2021FE4AF400DFC73E /* ComputeShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3EE7BF1F21FE4AF400DFC73E /* ComputeShaders.metal */; };
+		C7DAD0BAC659676A1875D82E /* Pods_HandGestureDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D47443611E221DA039EF49 /* Pods_HandGestureDetection.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E2848CA22044BA5006C06C4 /* HGDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGDButton.swift; sourceTree = "<group>"; };
+		3E2848CE2205A06D006C06C4 /* IMG_0011-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_0011-5.jpg"; sourceTree = "<group>"; };
+		3E2848DA2205CBAE006C06C4 /* HandSegNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandSegNet.mlmodel; sourceTree = "<group>"; };
+		3E2848DC2205CCC8006C06C4 /* GestureNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GestureNet.mlmodel; sourceTree = "<group>"; };
+		3E2848E02205FF1C006C06C4 /* PoseNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseNet.mlmodel; sourceTree = "<group>"; };
+		3EA889CB2201DB4E007A2FD7 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		3EA889CD2201E972007A2FD7 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		3EA889D4220222FD007A2FD7 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		3EA889D5220222FD007A2FD7 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		3EA889D6220222FD007A2FD7 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		3EA889D7220222FD007A2FD7 /* Predictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
+		3EA889D8220222FD007A2FD7 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		3EA889D9220222FD007A2FD7 /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
+		3EA889DA220222FD007A2FD7 /* UIImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RawBytes.swift"; sourceTree = "<group>"; };
+		3EA889DB220222FD007A2FD7 /* MLMultiArray+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Helpers.swift"; sourceTree = "<group>"; };
+		3EA889DC220222FD007A2FD7 /* CVPixelBuffer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helpers.swift"; sourceTree = "<group>"; };
+		3EA889DD220222FD007A2FD7 /* CGImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		3EA889DE220222FD007A2FD7 /* NonMaxSuppression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
+		3EA889DF220222FD007A2FD7 /* CGImage+RawBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+RawBytes.swift"; sourceTree = "<group>"; };
+		3EA889E0220222FD007A2FD7 /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
+		3EA889EE22025756007A2FD7 /* CIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImageExtensions.swift; sourceTree = "<group>"; };
+		3EC2285C2201D48C00868848 /* PredictionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionViewController.swift; sourceTree = "<group>"; };
+		3EE7BEF821FC826300DFC73E /* HandGestureDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandGestureDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE7BEFB21FC826300DFC73E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EE7BF0221FC826400DFC73E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EE7BF0521FC826400DFC73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EE7BF0721FC826400DFC73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE7BF0D21FC829300DFC73E /* Hand3DNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand3DNet.swift; sourceTree = "<group>"; };
+		3EE7BF1F21FE4AF400DFC73E /* ComputeShaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = ComputeShaders.metal; sourceTree = "<group>"; };
+		40226A4105FFF31B25D0EF23 /* Pods-HandGestureDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandGestureDetection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandGestureDetection/Pods-HandGestureDetection.debug.xcconfig"; sourceTree = "<group>"; };
+		E3D47443611E221DA039EF49 /* Pods_HandGestureDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandGestureDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E8563424989722C0634998 /* Pods-HandGestureDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandGestureDetection.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandGestureDetection/Pods-HandGestureDetection.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EE7BEF521FC826300DFC73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DAD0BAC659676A1875D82E /* Pods_HandGestureDetection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E2848D02205C2E6006C06C4 /* Nets */ = {
+			isa = PBXGroup;
+			children = (
+				3E2848E02205FF1C006C06C4 /* PoseNet.mlmodel */,
+				3E2848DC2205CCC8006C06C4 /* GestureNet.mlmodel */,
+				3E2848DA2205CBAE006C06C4 /* HandSegNet.mlmodel */,
+			);
+			path = Nets;
+			sourceTree = "<group>";
+		};
+		3E2848D72205C33E006C06C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3EA889CB2201DB4E007A2FD7 /* UIImageExtensions.swift */,
+				3EA889CD2201E972007A2FD7 /* UIColorExtensions.swift */,
+				3EA889EE22025756007A2FD7 /* CIImageExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3EA889D3220222FD007A2FD7 /* CoreMLHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				3EA889D4220222FD007A2FD7 /* Array+Extensions.swift */,
+				3EA889D5220222FD007A2FD7 /* Math.swift */,
+				3EA889D6220222FD007A2FD7 /* UIImage+CVPixelBuffer.swift */,
+				3EA889D7220222FD007A2FD7 /* Predictions.swift */,
+				3EA889D8220222FD007A2FD7 /* UIImage+Extensions.swift */,
+				3EA889D9220222FD007A2FD7 /* CGImagePropertyOrientation.swift */,
+				3EA889DA220222FD007A2FD7 /* UIImage+RawBytes.swift */,
+				3EA889DB220222FD007A2FD7 /* MLMultiArray+Helpers.swift */,
+				3EA889DC220222FD007A2FD7 /* CVPixelBuffer+Helpers.swift */,
+				3EA889DD220222FD007A2FD7 /* CGImage+CVPixelBuffer.swift */,
+				3EA889DE220222FD007A2FD7 /* NonMaxSuppression.swift */,
+				3EA889DF220222FD007A2FD7 /* CGImage+RawBytes.swift */,
+				3EA889E0220222FD007A2FD7 /* MLMultiArray+Image.swift */,
+			);
+			path = CoreMLHelpers;
+			sourceTree = "<group>";
+		};
+		3EE7BEEF21FC826300DFC73E = {
+			isa = PBXGroup;
+			children = (
+				3EE7BEFA21FC826300DFC73E /* HandGestureDetection */,
+				3EE7BEF921FC826300DFC73E /* Products */,
+				95034B441832F4DBDDF72E3A /* Pods */,
+				754496ADA7087941549F5E87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EE7BEF921FC826300DFC73E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EE7BEF821FC826300DFC73E /* HandGestureDetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EE7BEFA21FC826300DFC73E /* HandGestureDetection */ = {
+			isa = PBXGroup;
+			children = (
+				3E2848D72205C33E006C06C4 /* Extensions */,
+				3E2848D02205C2E6006C06C4 /* Nets */,
+				3E2848CE2205A06D006C06C4 /* IMG_0011-5.jpg */,
+				3EA889D3220222FD007A2FD7 /* CoreMLHelpers */,
+				3EE7BF1F21FE4AF400DFC73E /* ComputeShaders.metal */,
+				3EE7BEFB21FC826300DFC73E /* AppDelegate.swift */,
+				3EE7BF0221FC826400DFC73E /* Assets.xcassets */,
+				3EE7BF0421FC826400DFC73E /* LaunchScreen.storyboard */,
+				3EE7BF0721FC826400DFC73E /* Info.plist */,
+				3EE7BF0D21FC829300DFC73E /* Hand3DNet.swift */,
+				3EC2285C2201D48C00868848 /* PredictionViewController.swift */,
+				3E2848CA22044BA5006C06C4 /* HGDButton.swift */,
+			);
+			path = HandGestureDetection;
+			sourceTree = "<group>";
+		};
+		754496ADA7087941549F5E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3D47443611E221DA039EF49 /* Pods_HandGestureDetection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95034B441832F4DBDDF72E3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40226A4105FFF31B25D0EF23 /* Pods-HandGestureDetection.debug.xcconfig */,
+				F3E8563424989722C0634998 /* Pods-HandGestureDetection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EE7BEF721FC826300DFC73E /* HandGestureDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE7BF0A21FC826400DFC73E /* Build configuration list for PBXNativeTarget "HandGestureDetection" */;
+			buildPhases = (
+				165CC5E87995289718C016E0 /* [CP] Check Pods Manifest.lock */,
+				3EE7BEF421FC826300DFC73E /* Sources */,
+				3EE7BEF521FC826300DFC73E /* Frameworks */,
+				3EE7BEF621FC826300DFC73E /* Resources */,
+				FB0C1C0BD20F11B4E9B3C4BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandGestureDetection;
+			productName = HandGestureDetection;
+			productReference = 3EE7BEF821FC826300DFC73E /* HandGestureDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EE7BEF021FC826300DFC73E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Distillery;
+				TargetAttributes = {
+					3EE7BEF721FC826300DFC73E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3EE7BEF321FC826300DFC73E /* Build configuration list for PBXProject "HandGestureDetection" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EE7BEEF21FC826300DFC73E;
+			productRefGroup = 3EE7BEF921FC826300DFC73E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EE7BEF721FC826300DFC73E /* HandGestureDetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EE7BEF621FC826300DFC73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE7BF0621FC826400DFC73E /* LaunchScreen.storyboard in Resources */,
+				3E2848CF2205A06D006C06C4 /* IMG_0011-5.jpg in Resources */,
+				3EE7BF0321FC826400DFC73E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		165CC5E87995289718C016E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HandGestureDetection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0C1C0BD20F11B4E9B3C4BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HandGestureDetection/Pods-HandGestureDetection-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandGestureDetection/Pods-HandGestureDetection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EE7BEF421FC826300DFC73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE7BF2021FE4AF400DFC73E /* ComputeShaders.metal in Sources */,
+				3EA889EB220222FE007A2FD7 /* NonMaxSuppression.swift in Sources */,
+				3EA889E3220222FE007A2FD7 /* UIImage+CVPixelBuffer.swift in Sources */,
+				3E2848DB2205CBAE006C06C4 /* HandSegNet.mlmodel in Sources */,
+				3EA889E6220222FE007A2FD7 /* CGImagePropertyOrientation.swift in Sources */,
+				3EA889E4220222FE007A2FD7 /* Predictions.swift in Sources */,
+				3EA889CE2201E972007A2FD7 /* UIColorExtensions.swift in Sources */,
+				3EC2285D2201D48C00868848 /* PredictionViewController.swift in Sources */,
+				3E2848DD2205CCC8006C06C4 /* GestureNet.mlmodel in Sources */,
+				3EA889E1220222FE007A2FD7 /* Array+Extensions.swift in Sources */,
+				3EA889EF22025756007A2FD7 /* CIImageExtensions.swift in Sources */,
+				3EE7BEFC21FC826300DFC73E /* AppDelegate.swift in Sources */,
+				3EA889EC220222FE007A2FD7 /* CGImage+RawBytes.swift in Sources */,
+				3E2848E12205FF1C006C06C4 /* PoseNet.mlmodel in Sources */,
+				3EA889CC2201DB4E007A2FD7 /* UIImageExtensions.swift in Sources */,
+				3EA889ED220222FE007A2FD7 /* MLMultiArray+Image.swift in Sources */,
+				3EA889E7220222FE007A2FD7 /* UIImage+RawBytes.swift in Sources */,
+				3EA889E5220222FE007A2FD7 /* UIImage+Extensions.swift in Sources */,
+				3EA889EA220222FE007A2FD7 /* CGImage+CVPixelBuffer.swift in Sources */,
+				3EE7BF0E21FC829300DFC73E /* Hand3DNet.swift in Sources */,
+				3EA889E8220222FE007A2FD7 /* MLMultiArray+Helpers.swift in Sources */,
+				3EA889E9220222FE007A2FD7 /* CVPixelBuffer+Helpers.swift in Sources */,
+				3EA889E2220222FE007A2FD7 /* Math.swift in Sources */,
+				3E2848CB22044BA5006C06C4 /* HGDButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EE7BF0421FC826400DFC73E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE7BF0521FC826400DFC73E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EE7BF0821FC826400DFC73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EE7BF0921FC826400DFC73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EE7BF0B21FC826400DFC73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40226A4105FFF31B25D0EF23 /* Pods-HandGestureDetection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X676Z47A4;
+				INFOPLIST_FILE = HandGestureDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weezlabs.HandGestureDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EE7BF0C21FC826400DFC73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E8563424989722C0634998 /* Pods-HandGestureDetection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X676Z47A4;
+				INFOPLIST_FILE = HandGestureDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weezlabs.HandGestureDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EE7BEF321FC826300DFC73E /* Build configuration list for PBXProject "HandGestureDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE7BF0821FC826400DFC73E /* Debug */,
+				3EE7BF0921FC826400DFC73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE7BF0A21FC826400DFC73E /* Build configuration list for PBXNativeTarget "HandGestureDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE7BF0B21FC826400DFC73E /* Debug */,
+				3EE7BF0C21FC826400DFC73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EE7BEF021FC826300DFC73E /* Project object */;
+}
